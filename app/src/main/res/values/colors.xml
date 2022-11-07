@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF222222</color>
+    <color name="green">#FF00FF00</color>
+    <color name="colorPrimaryDark">#FF101010</color>
+    <color name="colorAccent">#FF000000</color>
+    <color name="cWhite">#FFEEEEEE</color>
+    <color name="cpWhite">#FFFFFFFF</color>
+    <color name="cpBlack">#FF000000</color>
+    <color name="Silver">#FFA9A9A9</color>
+    <color name="primary">#FF53413A</color>
+    <color name="primaryDark">#FF49383A</color>
+    <color name="secondary">#FFFBBC93</color>
+    <color name="bottomAppBar">#FFFBBC93</color>
+    <color name="bottomAppBar2">#FF53413A</color>
+    <color name="icon2">#FFFFFFFF</color>
+    <color name="icon">#FF222222</color>
+</resources>

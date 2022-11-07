@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#FFEEEEEE</color><!--off white-->
+    <color name="colorPrimaryDark">#FF101010</color><!--useless-->
+    <color name="colorAccent">#FFFFFFFF</color><!-->white<!-->
+    <color name="cWhite">#FF444444</color><!-->dark gray<!-->
+    <color name="cpWhite">#FF222222</color><!-->very dark gray<!-->
+    <color name="cpBlack">#FFFFFFFF</color><!-->white<!-->
+    <color name="Silver">#FF797979</color>
+    <color name="green">#FF00FF00</color>
+    <color name="primary">#FFFBBC93</color>
+    <color name="primaryDark">#FFBE9078</color>
+    <color name="secondary">#FF6F4E37</color>
+    <color name="bottomAppBar">#FF222222</color>
+    <color name="bottomAppBar2">#FF222222</color>
+    <color name="icon">#FFFBBC93</color>
+    <color name="icon2">#FFF4B893</color>
+</resources>

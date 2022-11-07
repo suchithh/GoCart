@@ -1,0 +1,54 @@
+<resources>
+    <string-array name="Categories">
+        <item>General</item>
+        <item>Groceries</item>
+    </string-array>
+
+    <string-array name="scrapingPrefs">
+        <item>Maximize Number of Results</item>
+        <item>Maximize Result Reliability</item>
+        <item>Minimize Search Time</item>
+    </string-array>
+
+    <string-array name="scrapingPrefsValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="noOfResults">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50 (Default)</item>
+    </string-array>
+
+    <string-array name="noOfResultsValues">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="theme">
+        <item>System Settings</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="themeValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>

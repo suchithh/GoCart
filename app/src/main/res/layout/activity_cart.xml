@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Go.GoCart.CartActivity"
+    android:orientation="vertical"
+    android:background="@color/cpWhite">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandedTitleGravity="bottom|center"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:collapsedTitleTextAppearance="@style/ToolbarThemeC"
+            app:expandedTitleTextAppearance="@style/ToolbarThemeE">
+
+            <ImageView
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                android:src="@color/bottomAppBar"/>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_cart"
+                app:menu="@menu/cart_menu"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="top"
+                android:backgroundTint="@color/bottomAppBar"
+                app:title="My Wishlist"
+                app:titleTextColor="@color/colorPrimary"
+                app:navigationIcon="@drawable/ic_back"
+                app:titleTextAppearance="@style/ToolbarThemeC"
+                app:layout_collapseMode="pin"
+                app:collapseIcon="@drawable/ic_back"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <ImageView
+            android:id="@+id/frown"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:src="@mipmap/dogecart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/constraint"
+            app:layout_constraintTop_toTopOf="@id/constraint" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Wishlist is currently empty. Please add items to the wishlist in order to view them."
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/constraint"
+            app:layout_constraintStart_toStartOf="@id/constraint"
+            app:layout_constraintTop_toBottomOf="@id/frown" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:background="@color/cpWhite"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:backgroundTint="@color/bottomAppBar"
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/lato"
+        android:textStyle="bold"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="25dp"
+        android:background="@color/cpWhite"
+        android:text="Total:"
+        android:textColor="@color/icon"
+        android:textSize="25sp"
+        app:layout_anchorGravity="bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

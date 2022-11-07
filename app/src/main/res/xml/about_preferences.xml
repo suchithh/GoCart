@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="About the app">
+
+        <Preference android:title="GoCart"
+            android:summary="Comparisons now made easier"
+            android:icon="@drawable/ic_gocart2"/>
+
+
+        <Preference android:title="App Version"
+            android:summary="Version 2.0.0"
+            android:icon="@drawable/ic_android"/>
+
+        <Preference android:title="Rate Us!"
+            android:summary="Drop a review on the Google Play Store"
+            android:icon="@drawable/ic_star_full">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.Go.GoCart" />
+        </Preference>>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About the developers">
+
+        <Preference
+            android:title="Developers:"
+            android:summary="Varun Shenoy\nSuchith Hegde\nHarsh Modani\nPragadeeshwar Kannan"
+            android:icon="@drawable/ic_developers">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://thiscatdoesnotexist.com" />
+        </Preference>
+
+        <Preference android:title="Contact us"
+            android:summary="gocartcontact@gmail.com"
+            android:icon="@drawable/ic_contact">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://i.redd.it/02g1pfot5ds41.jpg" />
+
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

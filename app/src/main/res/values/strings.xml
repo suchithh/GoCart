@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GoCart</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="searchHint">Search by Barcode or Keywords...</string>
+    <string name="addedToCart">Added to Cart</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="terms_of_service">
+        <b><u>GoCart: Terms of Service</u></b>
+        \n\n\nThese Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<i>“you”</i>) and GoCart (<i>“we”</i>, <i>“us”</i> or <i>“our”</i>), concerning your access to and use of our mobile application. You agree that by accessing GoCart, you have read, understood, and agree to be bound by all of these Terms and Conditions Use.
+        \n\nIF YOU DO NOT AGREE WITH ALL OF THESE TERMS AND CONDITIONS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE APPLICATION AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+        \n\nSupplemental terms and conditions or documents that may be posted on GoCart from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms and Conditions at any time and for any reason. We will alert you about any changes by updating the “Last updated” date of these Terms and Conditions and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Terms and Conditions to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Terms and Conditions by your continued use of GoCart after the date such revised Terms are posted.
+        \n\nThe information provided on GoCart is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access GoCart from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.
+        \n\nGoCart is purely meant for informational/research purposes; we are not endorsing/affiliated with any of the sites/businesses that are being displayed on our application nor can we ensure the legitimacy of the products they host. Additionally, we do not guarantee the availability of the product nor the desired user quantity. We are merely displaying results obtained from sites across the net. GoCart <b>does not</b> require for the creation of an account and therefore does not request nor store personal information of any sort whatsoever. Furthermore, the permissions requested by GoCart are used solely for the functioning of the application and this does not give us access to any of the user’s files other than the ones being requested. (Storage, Internet Connection, Camera etc.)
+        \n\n\nBy using the Application, you represent, warrant and agree not to:
+        \n\n(1) Systematically retrieve data or other content from the Application to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us;
+        \n\n(2) Make any unauthorized use of the Application, including collecting usernames and/or e-mail addresses of users by electronic or other means for the purpose of sending unsolicited e-mails, or creating user accounts by automated means or under false pretenses;
+        \n\n(3) Circumvent, disable, or otherwise interfere with security-related features of the Application, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Application and/or the Content contained therein;
+        \n\n(4) Engage in unauthorized framing of or linking to the Application;
+        \n\n(5) Make improper use of our support services or submit false reports of abuse or misconduct;
+        \n\n(6) Interfere with, disrupt, or create an undue burden on the Application or the networks or services connected to the Application;
+        \n\n(7) Use the Application as part of any effort to compete with us or otherwise use the Application and/or the Content for any revenue-generating endeavor or commercial enterprise;
+        \n\n(8) Decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Application;
+        \n\n(9) Attempt to bypass any measures of the Application designed to prevent or restrict access to the Application, or any portion of the Application.
+        \n\n\nYou may not access or use the Application for any purpose other than that for which we make the Application available. The Application may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us. We reserve the right, but not the obligation, to:
+        \n\n(1) monitor the Application for violations of these Terms of Use;
+        \n\n(2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Terms of Use, including without limitation, reporting such user to law enforcement authorities;
+        \n\n(3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof;
+        \n\n(4) in our sole discretion and without limitation, notice, or liability, to remove from the Application or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and
+        \n\n(5) otherwise manage the Application in a manner designed to protect our rights and property and to facilitate the proper functioning of the Application.
+        \n\n\nThese Terms of Use shall remain in full force and effect while you use the Application.
+        \n\nWITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SITE (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW OR REGULATION. IN SUCH A CASE, WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE APPLICATION ENTIRELY.</string>
+    <string name="loading_tip">Tip: If the search takes more than 40 seconds, consider
+        \n1. Trying again
+        \n2. Changing the network connection
+        \n3. Changing the search terms
+    \n4. Switching the Find Using setting to <i>\'Prioritize Time\'</i></string>
+</resources>

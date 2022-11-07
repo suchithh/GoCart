@@ -1,0 +1,173 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="dialogPreferenceStyle">@style/DialogBoxTheme</item>
+        <item name="listDividerAlertDialog">@style/DialogBoxTheme</item>
+        <item name="dialogTheme">@style/DialogBoxTheme</item>
+        <item name="android:dialogTheme">@style/DialogBoxTheme</item>
+        <item name="alertDialogStyle">@style/DialogBoxTheme</item>
+        <item name="alertDialogTheme">@style/DialogBoxTheme</item>
+        <item name="android:alertDialogTheme">@style/DialogBoxTheme</item>
+        <item name="android:editTextStyle">@style/EditTextAppTheme</item>
+        <item name="android:textAppearanceMedium">@style/EditTextAppTheme</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+        <item name="searchViewStyle">@style/SearchViewTheme</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="fontFamily">@font/lato</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="DarkTheme" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/cWhite</item>
+        <item name="colorAccent">@color/cpWhite</item>
+    </style>
+
+    <style name="ToolbarThemeC" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textSize">24sp</item>
+        <item name="iconTint">@color/icon</item>
+        <item name="android:textColor">@color/icon</item>
+        <item name="android:textColorSecondary">@color/icon</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlowTheme</item>
+        <item name="actionOverflowMenuStyle">@style/OverFlowMenuTheme</item>
+    </style>
+
+    <style name="ToolbarThemeE" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/icon</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlowTheme</item>
+        <item name="actionOverflowMenuStyle">@style/AppTheme</item>
+    </style>
+
+    <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="BottomAppBarThemeLight" parent="ThemeOverlay.AppCompat.ActionBar"/>
+
+    <style name="BottomAppBarThemeDark" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="PreferenceTheme" parent="@style/AppTheme">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@color/cpWhite</item>
+        <item name="android:textColorSecondary">@color/Silver</item>
+        <item name="android:textColorTertiary">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SearchViewTheme">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/Silver</item>
+        <item name="android:textColorHighlight">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/lato</item>
+    </style>
+    
+    <style name="EditTextAppTheme" parent="android:Widget.EditText">
+        <item name="android:background">@color/cpWhite</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DialogBoxTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/Silver</item>
+        <item name="android:textColorTertiary">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/cpWhite</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+        <item name="android:textColorAlertDialogListItem">@color/colorPrimary</item>
+        <item name="fontFamily">@font/lato</item>
+    </style>
+
+    <style name="DialogBoxTheme2" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:progressBarPadding">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/Silver</item>
+        <item name="android:textColorTertiary">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:background">@color/cpWhite</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+        <item name="android:textColorAlertDialogListItem">@color/colorPrimary</item>
+    </style>
+
+    <style name="Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="background">@color/cpWhite</item>
+    </style>
+
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="DialogTitleText">Please Wait</item>
+        <item name="android:background">@color/cpWhite</item>
+        <item name="DialogSpotColor">@color/colorAccent</item>
+        <item name="DialogSpotCount">8</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:background">@color/cpWhite</item>
+        <item name="android:windowBackground">@color/cpWhite</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="OverFlowTheme" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_baseline_more_vert_24</item>
+    </style>
+
+    <style name="ActionBarThemeOverlay">
+        <item name="fontFamily">@font/lato</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/Silver</item>
+    </style>
+    
+    <style name="OverFlowMenuTheme" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">8dp</item>
+        <item name="fontFamily">@font/lato</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="background">@color/cpWhite</item>
+        <item name="android:background">@color/cpWhite</item>
+    </style>
+
+
+</resources>

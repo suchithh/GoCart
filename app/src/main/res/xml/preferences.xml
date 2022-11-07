@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <PreferenceCategory android:title="Appearance"
+        android:iconSpaceReserved="true"
+        android:icon="@color/cpWhite">
+
+        <ListPreference 
+            app:title="Number of Results"
+            android:summary=""
+            android:key="no_of_results"
+            android:entries="@array/noOfResults"
+            android:entryValues="@array/noOfResultsValues"
+            android:defaultValue="50"
+            android:icon="@drawable/ic_list"/>
+
+        <ListPreference
+            app:title="Theme"
+            android:summary=""
+            android:key="theme"
+            android:entries="@array/theme"
+            android:entryValues="@array/themeValues"
+            android:defaultValue="0"
+            android:icon="@drawable/ic_brush"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Browsing"
+        android:iconSpaceReserved="true"
+        android:icon="@color/cpWhite">
+
+        <ListPreference
+            app:title="Priority"
+            android:summary=""
+            android:key="scrape_using"
+            android:entries="@array/scrapingPrefs"
+            android:entryValues="@array/scrapingPrefsValues"
+            android:defaultValue="2"
+            android:icon="@drawable/ic_search2"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Info"
+        android:iconSpaceReserved="true"
+        android:icon="@color/cpWhite">
+
+        <Preference
+            android:title="About Us"
+            android:summary="More info on GoCart"
+            android:icon="@drawable/ic_about2">
+            <intent
+                android:targetPackage="com.Go.GoCart"
+                android:targetClass="com.Go.GoCart.AboutActivity"/>
+
+        </Preference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

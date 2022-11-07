@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cpWhite"
+    tools:context="com.Go.GoCart.DisplayActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:collapsedTitleTextAppearance="@style/ToolbarThemeC"
+            app:expandedTitleGravity="bottom|center"
+            app:expandedTitleTextAppearance="@style/ToolbarThemeE"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@color/bottomAppBar" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_purchases"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="top"
+                android:backgroundTint="@color/bottomAppBar"
+                app:collapseIcon="@drawable/ic_back"
+                app:layout_collapseMode="pin"
+                app:menu="@menu/display_menu"
+                app:navigationIcon="@drawable/ic_back"
+                app:theme="@style/ActionBarThemeOverlay"
+                app:title="Purchase Options"
+                app:titleTextColor="@color/icon" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <ImageView
+            android:id="@+id/frown"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:src="@mipmap/sadcatto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/constraint"
+            app:layout_constraintTop_toTopOf="@id/constraint" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="We are sorry, there are no results matching your search criteria. You can try searching again using different search terms or filters."
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@id/constraint"
+            app:layout_constraintStart_toStartOf="@id/constraint"
+            app:layout_constraintTop_toBottomOf="@id/frown" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp"
+        android:background="@color/cpWhite"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="@color/cpWhite"
+        android:backgroundTint="@color/bottomAppBar"
+        android:fontFamily="@font/lato"
+        android:textColor="@color/icon"
+        android:textSize="18sp"
+        app:fabAlignmentMode="end"
+        app:layout_anchorGravity="bottom">
+
+        <TextView
+            android:id="@+id/no_of_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="50 Results"
+            android:textColor="@color/icon"
+            android:textSize="22sp" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_filter"
+            app:layout_constraintBottom_toBottomOf="@id/constraint2"
+            app:layout_constraintEnd_toStartOf="@id/sort"
+            app:layout_constraintTop_toTopOf="@id/constraint2" />
+
+        <ImageButton
+            android:id="@+id/sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_sort"
+            app:layout_constraintBottom_toBottomOf="@id/constraint2"
+            app:layout_constraintEnd_toStartOf="@id/scan_again"
+            app:layout_constraintTop_toTopOf="@id/constraint2" />
+
+        <ImageButton
+            android:id="@+id/scan_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_add_photo"
+            app:layout_constraintBottom_toBottomOf="@id/constraint2"
+            app:layout_constraintEnd_toEndOf="@id/constraint2"
+            app:layout_constraintTop_toTopOf="@id/constraint2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

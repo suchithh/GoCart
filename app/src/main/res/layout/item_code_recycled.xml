@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content"
+    android:background="@color/cpWhite">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_photo"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="116dp"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="Item"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/cpWhite"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintStart_toEndOf="@id/image"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="Site"
+        android:background="@color/cpWhite"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        app:layout_constraintTop_toBottomOf="@id/text3"
+        app:layout_constraintEnd_toStartOf="@id/share"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="987$"
+        android:background="@color/cpWhite"/>
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/text3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/cpWhite"
+        android:src="@drawable/ic_share"/>
+
+    <Button
+        android:id="@+id/btnVisit"
+        android:layout_width="150dp"
+        android:layout_height="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        android:layout_marginTop="8dp"
+        android:text="Visit"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/lato"
+        android:textAllCaps="false"
+        android:background="@drawable/btnbg" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        app:layout_constraintStart_toEndOf="@id/btnVisit"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="166dp"
+        android:text="Add to Wishlist"
+        android:textColor="@color/primary"
+        android:fontFamily="@font/lato"
+        android:textAllCaps="false"
+        android:background="@drawable/btnbg"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="184dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/image"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/cardbg">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="18dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_star_full"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:foregroundGravity="center"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="94dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="60dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:text="4.0/5"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:fontFamily="@font/lato"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

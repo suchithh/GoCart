@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "483625744246",
+    "firebase_url": "https://gocart-5f696.firebaseio.com",
+    "project_id": "gocart-5f696",
+    "storage_bucket": "gocart-5f696.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483625744246:android:ad4135b51e51ca816c2c57",
+        "android_client_info": {
+          "package_name": "com.Go.GoCart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483625744246-d02h1o816pjgnu118698dbub9rmne284.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhSZnYt9CXXlZE4A0yqNZyX5o5t8VBBAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483625744246-d02h1o816pjgnu118698dbub9rmne284.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
