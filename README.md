@@ -29,9 +29,9 @@ To build the app yourself, follow these steps:
 
 #### Python - Locally hosting the flask server.
 1. Download Python 3.6+ from [here](https://www.python.org/downloads/).
-2. Navigate to the folder containing the Python files.
+2. Navigate to the folder containing the Python files (FlaskApp).
 3. Install the required packages using the command `pip install -r requirements.txt`.
-3. Run the application using the command `python main.py`. This should start up the flask server.
+3. Run the application using the command `python main.py`. This should start up the flask server on localhost.
 
 #### Android Studio
 1. Download Android Studio from [here](https://developer.android.com/studio).
