@@ -1,4 +1,6 @@
 # GoCart
+![logo](https://raw.githubusercontent.com/suchithh/GoCart/main/media/logo.png)
+
 GoCart acts as your personal Shopping Companion and allows you to compare prices of different products across multiple websites really quickly!
 GoCart does not display any ads whatsoever and is completely free to use, forever!
 GoCart doesn’t require any login credentials and doesn’t store any personal user information whatsoever.
@@ -9,6 +11,8 @@ With GoCart, you can:
 - Filter your searches according to price ranges and categories
 - Wishlist your favourite products from a particular website and access it at any point of time
 - Change quantity of products to view the total on the wishlist
+  
+![homescreen](https://raw.githubusercontent.com/suchithh/GoCart/main/media/screenshot0.jpg)
 
 ### Built With
 
@@ -17,7 +21,7 @@ With GoCart, you can:
 
 ### Installing
 
-The app can be installed from the [Google Play Store](play.google.com/store/apps/details?id=com.Go.GoCart).
+The app can be installed from the [Google Play Store](https://play.google.com/store/apps/details?id=com.Go.GoCart).
 
 ### Building the App
 
